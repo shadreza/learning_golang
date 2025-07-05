@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.wasm
+
+# Test binaries
+*.test
+*_test
+
+# Output of 'go build'
+# For projects that use Go modules, this typically means the executable is placed
+# in the current directory or a 'bin' subdirectory.
+# If your project builds executables in a specific 'bin' directory, you might add:
+/bin/
+
+# Go module cache and build artifacts
+.go/
+go.work.sum
+go.sum # if not using modules or if you want to ignore changes to go.sum during development
+
+# Dependency vendor directory
+vendor/
+
+# IDE specific files
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go build output
+**/main
