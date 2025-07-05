@@ -1,6 +1,6 @@
 # Learning Golang
 
-## How to make a go file
+## How to make and run a go file
 
 In preferred directory, make a `main.go` file. Write the go code. Now to run we can build and make it an executable or directly run using the go run command.
 
